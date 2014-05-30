@@ -1,0 +1,150 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+
+main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    background: none;
+    background-image: url(../img/spray.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: none;
+    width: 150px;
+    height: 150px;
+}
+
+i {
+    color: lightgreen;
+}
+
+html, body {
+    margin: 20px;
+}
+
+.inline {
+    display: inline;
+}
+
+#picker {
+    margin-top: -100px;
+    width: 206px;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.settings button {
+    margin-top: 10px;
+}
+
+.transmit {
+	margin-top: 100px;
+}
+
+#content {
+	padding-bottom: 10px;
+}
+
+input {
+	margin-top: 10px;
+}
+
+.outer {
+	display: table;
+	width: 100%;
+}
+
+.inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+
+
+/* --------------------------------------------------- */
+
+
+/* switch background */
+label:before {
+	content: '';
+	display: block;
+	width: 44px;
+  height: 26px; /*border-radius*/
+	background: #fafafa; /*box-shadow*/
+  -webkit-border-radius: 26px;
+  -moz-border-radius: 26px;
+  border-radius: 26px;
+  -webkit-box-shadow: inset 0 0 0 1px #ccc;
+	box-shadow: inset 0 0 0 1px #ccc;
+	border: 1px solid #D3D3D3; /*box-shadow*/
+	/*position: relative;*/
+	z-index: -1;
+	padding: 1px;
+}
+
+/* switch background when checked */
+#switch:checked ~ label[for=switch]:before {
+  border-color: #53D76A;
+  -webkit-box-shadow: inset 0 0 0 17px #53D76A;
+	box-shadow: inset 0 0 0 17px #53D76A;
+}
+
+/* 1 -Hide the inputs */
+input[type=checkbox] {
+	display: none;
+}
+
+/* 2 -Prepare labels */
+#slider {
+	content: '';
+	height: 26px;
+	display: block;
+	float: left;
+	width: 26px;
+	padding: 0px;
+  border-radius: 26px;
+  background-color: white;
+  border: 1px solid #c8c8c8; 
+	margin: -29px 1px; /*border-radius*/
+  -webkit-box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 4px 5px rgba(0,0,0,.1),inset 0 -3px 3px hsla(0,0%,0%,.025), 0 1px 4px hsla(0,0%,0%,.15), 0 4px 4px hsla(0,0%,0%,.1);
+	box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 4px 5px rgba(0,0,0,.1),inset 0 -3px 3px hsla(0,0%,0%,.025), 0 1px 4px hsla(0,0%,0%,.15), 0 4px 4px hsla(0,0%,0%,.1);
+}
+
+label {
+	display: block;
+	margin: 8px 0;
+}
+
+/* Now, make the switch move */
+label:before,#slider,#switch:checked ~ label[for=switch]:before {
+  border: 1px solid #53D76A;
+-webkit-transition: box-shadow .5s, margin .25s .25s, border-color 1s;
+	-moz-transition: box-shadow .5s, margin .25s .25s, border-color 1s;
+	-o-transition:box-shadow .5s, margin .25s .25s, border-color 1s;
+	-ms-transition: box-shadow .5s, margin .25s .25s, border-color 1s;
+	transition: box-shadow .5s, margin .25s .25s, border-color 1s;
+}
+
+#switch:checked ~label[for=switch] #slider{
+   margin: -29px 19px; /*transition*/
+  /*transition*/
+  -webkit-transition: box-shadow .65s, margin .2s ease-out, border-color .25s;
+	-moz-transition: box-shadow .65s, margin .2s ease-out, border-color .25s;
+	-o-transition: box-shadow .65s, margin .2s ease-out, border-color .25s;
+	-ms-transition: box-shadow .65s, margin .2s ease-out, border-color .25s;
+	transition: box-shadow .65s, margin .2s ease-out, border-color .25s;
+}
+
+#content {
+	width: 50px;
+	margin: auto;
+}

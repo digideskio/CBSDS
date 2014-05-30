@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5231D8B3-0FB7-4C59-874B-BC80FB4E4B1C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CBSDS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>709D7BEC-F21A-422E-9428-F2E431EFD341</key>
+		<string>https://github.com/beakybal4/CBSDS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS app/CBSDS.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>709D7BEC-F21A-422E-9428-F2E431EFD341</key>
+		<string>../../..</string>
+		<key>D86BB025-4A85-413E-B5F7-ADD1ACA37E99</key>
+		<string>../../submodules/socket-rocket</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/beakybal4/CBSDS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>709D7BEC-F21A-422E-9428-F2E431EFD341</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>709D7BEC-F21A-422E-9428-F2E431EFD341</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CBSDS</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D86BB025-4A85-413E-B5F7-ADD1ACA37E99</string>
+			<key>IDESourceControlWCCName</key>
+			<string>socket-rocket</string>
+		</dict>
+	</array>
+</dict>
+</plist>

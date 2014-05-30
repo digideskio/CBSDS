@@ -1,0 +1,10 @@
+{
+  "name": "CBSDS",
+  "email": "josh@joshbalfour.co.uk",
+  "url": "http://cloudbasedscentdistributionsystem.com",
+  "dependencies": {
+    "body-parser": "^1.2.2",
+    "express": "^4.3.2",
+    "socket.io": "^0.9.15"
+  }
+}

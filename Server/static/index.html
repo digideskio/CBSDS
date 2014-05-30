@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CBSDS</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="css/main.css" type="text/css" />
+        <link rel="stylesheet" href="css/animate.css" type="text/css" />
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/colpick.css" type="text/css"/>
+    </head>
+    <body>
+    	<div class="outer">
+    		<div class="inner">
+		        <main>
+		            <div class="settings">
+		                <form>
+		                    <div id=content>
+			                    <input type="checkbox" class="check" id="switch" name="check_one" />
+			                    <label for="switch">
+			                    	<span id="slider"></span>
+			                    </label>
+		                    </div>
+		                    Spray on/off 
+		                </form>
+		                <div class="inline">
+		                    <form>
+		                        <p class="idinput">The Scentee ID is: <input type='text' onkeypress='validate(event)' name="scenteeid" maxlength="4" /><br></p>
+		                    </form>
+		                    <div id="picker"></div>
+		                    <p class="finalrgb"></p>
+		                </div>
+		            </div>
+		            <div class="transmit">
+						<form>
+							<button type="button"></button>
+						</form>
+			            <div class="done">
+			                <p>Done!<i class="fa fa-check"></i></p>
+			            </div>
+		            </div>
+		        </main>
+    		</div>
+    	</div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/colpick.js" type="text/javascript"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>
