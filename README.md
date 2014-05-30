@@ -21,4 +21,10 @@ To Install
 		npm install
 		node app
 		
-4. leaving that running, open finder, navigate to the iOS app directory, open CBSDS.xcodeproj and run it on your device (it won't work in the simulator)
+4. leaving that running, open finder, navigate to the iOS app directory, open CBSDS.xcodeproj 
+5. open the ViewController.m file, go to line 29 which should read 
+
+		[socketIO connectToHost:@"cloudbasedscentdistributionsystem.com" onPort:80];
+
+6. change the domain and port number to your domain and port number
+7. run it on your device (it won't work in the simulator)
